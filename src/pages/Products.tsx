@@ -2,8 +2,7 @@ import ProductCard from '@/components/ProductCard';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
-import { useToast } from '@/components/ui/use-toast';
-import { useGetproductsQuery } from '@/redux/features/api/apiSlice';
+import { useGetproductsQuery } from '@/redux/features/product/productApi';
 import {
   setPriceRange,
   toggleStatus,
